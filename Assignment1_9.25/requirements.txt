@@ -1,7 +1,0 @@
-import requests
-import json
-import matplotlib.pyplot as plt
-import numpy as np
-import dotenv
-import os
-from matplotlib.animation import FuncAnimation
