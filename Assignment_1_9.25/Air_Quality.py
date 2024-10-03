@@ -30,7 +30,7 @@ for citydata in airdata['results'][:20]:
     citylabel = f"{cityname}, {path}" if path else cityname
     
     cities.append(citylabel)
-    aqis.append(int(aqi))  
+    aqis.append(float(aqi))  
 
 
 # Change the Color
